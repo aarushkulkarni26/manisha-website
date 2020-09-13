@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Personal Website</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      body {
+        font: 20px Montserrat, sans-serif;
+        line-height: 1.8;
+        color: #f5f6f7;
+      }
+
+      p {
+        font-size: 16px;
+      }
+
+      .margin {
+        margin-bottom: 30px;
+      }
+
+      .bg-1 {
+        background-color: #1abc9c;
+        color: #ffffff;
+      }
+
+      .bg-2 {
+        background-color: #474e5d;
+        color: #ffffff;
+      }
+
+      .bg-3 {
+        background-color: #ffffff;
+        color: #555555;
+      }
+
+      .bg-4 {
+        background-color: #2f2f2f;
+        color: #fff;
+      }
+
+      .container-fluid {
+        padding-bottom: 70px;
+      }
+
+      .navbar {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border: 0;
+        border-radius: 0;
+        margin-bottom: 0;
+        font-size: 12px;
+        letter-spacing: 5px;
+      }
+
+      .navbar-nav li a:hover {
+        color: #1abc9c !important;
+      }
+
+      .home__title {
+        font-size: 60px;
+        margin-bottom: 2.5rem;
+      }
+
+      .hello {
+        background: linear-gradient(to right, red, green);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 30px;
+      }
+
+      @import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background: #1abc9c;
+      }
+
+      .wrapper {
+        margin-top: 2%;
+      }
+
+      .wrapper h1 {
+        font-family: 'Allura', cursive;
+        font-size: 52px;
+        margin-bottom: 60px;
+        text-align: center;
+      }
+
+      .team {
+        display: flex;
+        justify-content: center;
+        width: auto;
+        text-align: center;
+        flex-wrap: wrap;
+      }
+
+      .team .team_member {
+        background: #fff;
+        margin: 5px;
+        margin-bottom: 50px;
+        width: 300px;
+        padding: 20px;
+        line-height: 20px;
+        color: #8e8b8b;
+        position: relative;
+      }
+
+      .team .team_member h3 {
+        color: #1abc9c;
+        font-size: 26px;
+        margin-top: 50px;
+      }
+
+      .footer {
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 5%;
+        background-color: #2f2f2f;
+        color: white;
+        text-align: center;
+      }
+
+      .team .team_member p.role {
+        color: #ccc;
+        margin: 12px 0;
+        font-size: 12px;
+        text-transform: uppercase;
+      }
+
+      .team .team_member .team_img {
+        position: absolute;
+        top: -50px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background: #fff;
+      }
+
+      .team .team_member .team_img img {
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav
+      class="navbar navbar-default"
+      style="position: sticky; top: 0; z-index: 100"
+    >
+      <div class="container">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#myNavbar"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <img src="images.jpg" alt="" heigth="100px" width="100px" />
+        </div>
+        <div class="navbar-header">
+          <p class="hello" style="text-transform: uppercase">
+            Growing Up Childcare
+          </p>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="index.html">
+                <p style="font-size: large">Home</p>
+              </a>
+            </li>
+            <li>
+              <a href="Curriculum.html">
+                <p style="font-size: large">Curriculum</p>
+              </a>
+            </li>
+            <li>
+              <a href="Contact.html">
+                <p style="font-size: large">Contact</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="wrapper">
+      <h1>Our Team</h1>
+      <p style="text-align: center; font-size: 30px">
+        All our teachers are certified by the state of Massachusetts Department
+        of Early education and care.
+      </p>
+      <br /><br /><br />
+      <div class="team">
+        <div class="team_member">
+          <div class="team_img">
+            <img
+              src="https://raw.githubusercontent.com/codingmarket07/Our-Team-Section-M6/master/team1.png"
+              alt="Team_image"
+            />
+          </div>
+          <h3>Manisha Paraskar</h3>
+          <p class="role">UI developer</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quaerat
+            tempora, voluptatum quas facere dolorum aut cumque nihil nulla harum
+            nemo distinctio quam blanditiis dignissimos.
+          </p>
+        </div>
+        <div class="team_member">
+          <div class="team_img">
+            <img
+              src="https://raw.githubusercontent.com/codingmarket07/Our-Team-Section-M6/master/team1.png"
+              alt="Team_image"
+            />
+          </div>
+          <h3>Rosie Meg</h3>
+          <p class="role">Tester</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quaerat
+            tempora, voluptatum quas facere dolorum aut cumque nihil nulla harum
+            nemo distinctio quam blanditiis dignissimos.
+          </p>
+        </div>
+        <div class="team_member">
+          <div class="team_img">
+            <img
+              src="https://raw.githubusercontent.com/codingmarket07/Our-Team-Section-M6/master/team1.png"
+              alt="Team_image"
+            />
+          </div>
+          <h3>Alex Wood</h3>
+          <p class="role">Support Lead</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quaerat
+            tempora, voluptatum quas facere dolorum aut cumque nihil nulla harum
+            nemo distinctio quam blanditiis dignissimos.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      Manisha Paraskar&nbsp&nbsp&nbsp&nbsp206&nbsp&nbsp&nbspFlorence
+      Ave&nbsp&nbsp&nbspArlington MA&nbsp&nbsp&nbsp02476
+    </div>
+  </body>
+</html>
